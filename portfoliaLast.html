@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Pf</title>
+    <link rel="icon"
+        href="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d7efe4cd-d38b-4fe7-b61e-b7f5009ea250/d7tjk8e-0ad6d461-673c-4ba4-a127-55bf5407b2bb.png/v1/fill/w_1600,h_1525,q_80,strp/the_witcher_3__wild_hunt_logo__original_sticker__by_kejo13_d7tjk8e-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTUyNSIsInBhdGgiOiJcL2ZcL2Q3ZWZlNGNkLWQzOGItNGZlNy1iNjFlLWI3ZjUwMDllYTI1MFwvZDd0ams4ZS0wYWQ2ZDQ2MS02NzNjLTRiYTQtYTEyNy01NWJmNTQwN2IyYmIucG5nIiwid2lkdGgiOiI8PTE2MDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.iGNsS7T4p8BGHEEALbagKxTJo2e0wY8SCHmFLNpIlRE">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<style>
+    .container {
+        overflow-y: scroll;
+        height: 100vh;
+    }
+    .section {
+        scroll-snap-align: start;
+    }
+</style>
+
+<body>
+    <div class="relative min-h-screen md:flex">
+
+        <div class="mobile-menu bg-gray-800 text-gray-100 flex justify-between md:hidden">
+            <a href="#" class="block p-4 text-white font-bold"></a>
+
+            <button class="p-4 hover:bg-gray-700">
+                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </div>
+        <!--side menu-->
+        <div
+            class="side-menu bg-gray-800 text-gray-100 w-52 space-y-6 py-4 px-3 absolute inset-y-0 left-0 transform -translate-x-full md:relative md:translate-x-0 transition duration-200 ease-in-out">
+            <a href="#" class="text-white flex items-center space-x-2 px-2">
+                <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
+                </svg>
+                <span class="text-2xl font-extrabold"> logo</span>
+            </a>
+            <nav>
+                <a href="#first" class="block py-2.5 px-4 hover:bg-blue-700 rounded">Home</a>
+                <a href="#second" class="block py-2.5 px-4 hover:bg-blue-700 rounded">About</a>
+                <a href="#third" class="block py-2.5 px-4 hover:bg-blue-700 rounded">Random Facts</a>
+                <a href="#" class="block py-2.5 px-4 hover:bg-blue-700 rounded">Contact</a>
+            </nav>
+        </div>
+        <!-- main content-->
+        <div class="container">
+            <div id="first"
+                class="section h-screen w-full flex flex-col md:flex-row p-10 text-2xl justify-center items-center">
+                <div class="md:w-2/4">
+                    <h1 class="font-bold text-3xl">About</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore dolore modi adipisci ad
+                        consectetur sint iste ipsam possimus quia ducimus! Consequatur inventore cupiditate ad.</p>
+                </div>
+                <div class="md:w-2/4">
+                    <img class="py-8"
+                        src="https://lh3.googleusercontent.com/proxy/JkP6WSfhJKyjl_P5lI9MkIl91AbzWI46x-H6NGD_jwo0tTpWLBnHpCEB7CUCqOfOC2gB20eC_jjxioaHzUetCk2Yk-o"
+                        alt="">
+                </div>
+            </div>
+            <div id="second" class="section h-screen w-full flex flex-col md:flex-row p-10 text-2xl justify-center items-center">
+                <div class="md:w-2/4">
+                    <h1 class="font-bold text-3xl">About</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore dolore modi adipisci ad
+                        consectetur sint iste ipsam possimus quia ducimus! Consequatur inventore cupiditate ad.</p>
+                </div>
+                <div class="md:w-2/4">
+                    <img class="py-8"
+                        src="https://lh3.googleusercontent.com/proxy/JkP6WSfhJKyjl_P5lI9MkIl91AbzWI46x-H6NGD_jwo0tTpWLBnHpCEB7CUCqOfOC2gB20eC_jjxioaHzUetCk2Yk-o"
+                        alt="">
+                </div>
+            </div>
+            <div id="third" class="section h-screen w-full flex flex-col md:flex-row p-10 text-2xl justify-center items-center">
+                <div class="md:w-2/4">
+                    <h1 class="font-bold text-3xl">Random Facts</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore dolore modi adipisci ad
+                        consectetur sint iste ipsam possimus quia ducimus! Consequatur inventore cupiditate ad.</p>
+                </div>
+                <div class="md:w-2/4">
+                    <img class="py-8"
+                        src="https://lh3.googleusercontent.com/proxy/JkP6WSfhJKyjl_P5lI9MkIl91AbzWI46x-H6NGD_jwo0tTpWLBnHpCEB7CUCqOfOC2gB20eC_jjxioaHzUetCk2Yk-o"
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <script>
+        const btn = document.querySelector(".mobile-menu");
+        const side = document.querySelector(".side-menu");
+
+        btn.addEventListener("click", () => {
+            side.classList.toggle("-translate-x-full");
+        })
+    </script>
+</body>
+
+</html>
