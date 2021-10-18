@@ -48,61 +48,73 @@
             <nav>
                 <a href="#first" class="block py-2.5 px-4 hover:bg-blue-700 rounded">Home</a>
                 <a href="#second" class="block py-2.5 px-4 hover:bg-blue-700 rounded">About</a>
-                <a href="#third" class="block py-2.5 px-4 hover:bg-blue-700 rounded">Random Facts</a>
-                <a href="#" class="block py-2.5 px-4 hover:bg-blue-700 rounded">Contact</a>
+                <a href="#third" class="block py-2.5 px-4 hover:bg-blue-700 rounded">Skills</a>
+                <a href="#fourth" class="block py-2.5 px-4 hover:bg-blue-700 rounded">Contact</a>
             </nav>
         </div>
         <!-- main content-->
         <div class="container p-12">
             <div id="first"
                 class="section h-screen w-full flex flex-col md:flex-row p-14 md:p-0 text-2xl justify-center items-center ">
-                <div class="md:w-2/4">
-                    <img class="py-8" src="yoda.jpg" alt="">
+                <div class="md:w-2/4 pl-11">
+                    <p class="italic">Hi There, I'm</p>
+                    <h1 class="italic font-bold text-5xl">Rinchinnyam</h1>
+                    <h2 class="italic text-3xl mt-2">Software Dev Student</h2>
                 </div>
                 <div class="md:w-2/4">
-                    <h1 class="font-bold text-3xl">About</h1>
-                    <p>A web developer is a programmer who specializes in, or is specifically engaged in, the
-                        development of World Wide Web applications using a client–server model.</p>
+                    <img class="py-8" src="yoda.jpg" alt="">
                 </div>
             </div>
             <div id="second"
                 class="section h-screen w-full flex flex-col md:flex-row p-14 text-2xl md:p-0 justify-center items-center">
                 <div class="md:w-2/4">
                     <h1 class="font-bold text-3xl">About</h1>
-                    <ul style="list-style: disc;">
-                        <li style="margin-bottom: 25px;">
-                            The Front-End Developer (aka Front-End Engineer aka “Web Developer / Designer”)
-                        </li>
-                        <li style="margin-bottom: 25px;">
-                            The Back-End Developer (aka the person no one really knows about)
-                        </li>
-                        <li style="margin-bottom: 25px;">
-                            The Full-Stack Developer (aka the Superman / Superwoman)
-                        </li>
-                    </ul>
+                    <p>sdfjlaskdjflasdfjklasjfdsf</p>
+                    <p>sdfjlaskdjflasdfjklasjfdsf</p>
+
                 </div>
                 <div class="md:w-2/4">
                     <img class="py-8" src="yoda.jpg" alt="">
                 </div>
             </div>
             <div id="third"
-                class="section h-screen w-full flex flex-col md:flex-row p-14 md:p-0 text-2xl justify-center items-center">
-                <div class="md:w-2/4">
-                    <h1 class="font-bold text-3xl">Random Facts</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore dolore modi adipisci ad
-                        consectetur sint iste ipsam possimus quia ducimus! Consequatur inventore cupiditate ad.</p>
+                class="italic section h-screen w-full flex flex-col md:flex-row p-14 md:p-0 text-2xl justify-center items-center">
+                <div class="md:w-2/4 relative">
+                    <div class="flex w-full p-3">
+                        <p class="w-2/5">HTML (80%)</p>
+                        <div class="h-10 w-56 bg-blue-300"></div>
+                    </div>
+                    <div class="flex w-full p-3">
+                        <p class="w-2/5">CSS (60%)</p>
+                        <div class="h-10 w-44 bg-red-300"></div>
+                    </div>
+                    <div class="flex w-full p-3">
+                        <p class="w-2/5">JavaScript (35%)</p>
+                        <div class="h-10 w-24 bg-yellow-300"></div>
+                    </div>
                 </div>
                 <div class="md:w-2/4">
-                    <img class="py-8" src="yoda.jpg" alt="">
+                    <img class="py-8" src="yy.jpg" alt="">
                 </div>
             </div>
+            <div id="fourth"
+                class="section h-screen w-full flex flex-col md:flex-row p-14 text-2xl md:p-0 justify-center items-center">
+                <div class="w-full flex flex-col justify-center items-center">
+                    <h1 class=" text-5xl font-bold">Contact Us</h1>
+                    <h4 class="text-sm font-bold">We'd love to hear from you!</h4>
+                </div>
+            </div>
+
+
         </div>
+
+    </div>
+    </div>
+    </div>
     </div>
 
     <script>
-        const btn = document.querySelector(".mobile-menu");
-        const side = document.querySelector(".side-menu");
-
+        const btn = document.querySelector(" .mobile-menu"); const side = document.querySelector(".side-menu");
         btn.addEventListener("click", () => {
             side.classList.toggle("-translate-x-full");
         })
