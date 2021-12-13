@@ -1,1 +1,1 @@
-https://rinchjo.github.io/assigns/portfolioLast.html
+https://rinchjo.github.io/assigns/
